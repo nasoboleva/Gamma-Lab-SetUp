@@ -23,7 +23,7 @@
 
 5. Choose folder with the desired model and run _change directory_ command: `cd <name of the folder>`, example `cd pggan-pytorch/`.
 6.
-    + If you want to create new training run `tmux new-session -s <name of session>`, please name the sessions using you name, surname or other sort of identification, example `tmux new-session -s gan_images_natasha`. Then run `jupyter nootebok --<port>`, replace _port_ with 4 numbers, example `jupyter nootebok --8888`. Some ports can be occupied, change number, util successfully getting following window
+    + If you want to create new training run `tmux new-session -s <name of session>`, please name the sessions using you name, surname or other sort of identification, example `tmux new-session -s gan_images_natasha`. Then run `jupyter nootebok --port=<port>`, replace _port_ with 4 numbers, example `jupyter nootebok --port=8888`. Some ports can be occupied, change number, util successfully getting following window
 
     ![](jupyter.png)
 
