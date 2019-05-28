@@ -36,4 +36,4 @@
 9. Run `jupyter notebook list`
 10. From the list choose item with your port in `localhost:8888`, paste the address into your browser, like that [http://localhost:8899/?token=cfb16c59053478f4673c2b53772cdad33228c64ade74b8d5](http://localhost:8899/?token=cfb16c59053478f4673c2b53772cdad33228c64ade74b8d5)
 
-11. Open the notebook there. The example of how it may look like can be found here []().
+11. Open the notebook there. The example of how it may look like can be found here [GAN_train.ipynb](https://github.com/nasoboleva/Gamma-Lab-SetUp/blob/master/GAN_train.ipynb).
