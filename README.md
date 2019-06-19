@@ -7,9 +7,9 @@
 
 + ``` chmod 400 ~/keys/CentOS_GPUx1-10-150-100_100GB_id_rsa.pem ```
 
-`ssh -i <path to the key> ubuntu@89.208.199.154`, replace `<path to the key>` for real path to key file, example:
+`ssh -i <path to the key> ubuntu@85.192.35.42`, replace `<path to the key>` for real path to key file, example:
 
-+ `ssh -i  ~/keys/CentOS_GPUx1-10-150-100_100GB_id_rsa.pem ubuntu@89.208.199.154`     
++ `ssh -i  ~/keys/CentOS_GPUx1-10-150-100_100GB_id_rsa.pem ubuntu@85.192.35.42`     
 
 
 3. Once you on the machine, the left side of the terminal should look like this:
@@ -30,7 +30,7 @@
     + The list of running sessions can be seen using command `tmux ls`
     + if you want to check on the progress on your training connect to running session from the list, using correct names, example `tmux a -t gan_images_natasha`
 
-7. Open another tab/window of your terminal. Run `ssh -N -f -L localhost:<port>:localhost:<port> -i <path to the key> ubuntu@89.208.199.154`, filled out _path to key_ and _port_ with your path and port, example `ssh -N -f -L localhost:8888:localhost:8888 -i ~/keys/CentOS_GPUx1-10-150-100_100GB_id_rsa.pem ubuntu@89.208.199.154`
+7. Open another tab/window of your terminal. Run `ssh -N -f -L localhost:<port>:localhost:<port> -i <path to the key> ubuntu@85.192.35.42`, filled out _path to key_ and _port_ with your path and port, example `ssh -N -f -L localhost:8888:localhost:8888 -i ~/keys/CentOS_GPUx1-10-150-100_100GB_id_rsa.pem ubuntu@85.192.35.42`
 
 8. Connect to the server again. Use step 2.
 9. Run `jupyter notebook list`
